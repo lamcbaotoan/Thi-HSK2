@@ -10,3 +10,8 @@ __pycache__/
 .DS_Store
 Thumbs.db
 
+# Temp inspection scripts & crop folders
+test_*
+inspect_*
+compare_with_pdf.py
+find_all_discrepancies.py

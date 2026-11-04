@@ -1,6 +1,6 @@
-# 🎯 Hệ Thống Thi Thử HSK 2 Chuẩn Hanban (Phần Đọc Hiểu - Reading)
+# 🎯 Hệ Thống Thi Thử HSK 2 Chuẩn Hanban - Đầy Đủ 60 Câu (Nghe & Đọc)
 
-Ứng dụng web thi thử HSK 2 (Phần Đọc hiểu - 25 câu - 100 điểm) được xây dựng mô phỏng **100% cấu trúc, giao diện và nội dung đề thi giấy chính thức** của Hanban / Viện Khổng Tử Trung Quốc.
+Ứng dụng web thi thử HSK 2 toàn diện với **đầy đủ 60 câu hỏi** (35 câu Nghe hiểu + 25 câu Đọc hiểu - Thang điểm 200) được xây dựng mô phỏng **100% cấu trúc, giao diện, âm thanh và nội dung đề thi giấy chính thức** của Hanban / Viện Khổng Tử Trung Quốc.
 
 🌐 **Trải nghiệm trực tuyến ngay tại:**  
 👉 **[https://lamcbaotoan.github.io/Thi-HSK2/](https://lamcbaotoan.github.io/Thi-HSK2/)**
@@ -9,68 +9,58 @@
 
 ## 🌟 Tính Năng Nổi Bật
 
-### 1. 🗂️ Ngân Hàng 6 Đề Thi Thật (150 Câu Hỏi)
-- Tích hợp đầy đủ dữ liệu từ 6 bộ đề thi chính thức: **H20901, H20902, H21003, H21004, H21005, H21006**.
-- Hỗ trợ 2 hình thức:
-  - **Làm từng đề cụ thể**: Ôn tập trọn vẹn theo từng đề chuẩn.
-  - **Đề ngẫu nhiên (Trộn đề)**: Hệ thống tự động bốc ngẫu nhiên 25 câu hỏi từ 6 bộ đề theo đúng tỷ lệ 4 phần của bài thi HSK 2.
+### 1. 🗂️ Đầy Đủ 60 Câu Chuẩn Hanban (Ngân Hàng 6 Đề - 360 Câu Hỏi)
+- Tích hợp chuẩn xác 100% dữ liệu từ 6 bộ đề thi chính thức: **H20901, H20902, H21003, H21004, H21005, H21006**.
+- **Đánh số câu hỏi chuẩn quốc tế từ Câu 1 đến Câu 60**:
+  - **一、听 力 (Phần Nghe hiểu - Câu 1 đến 35)**:
+    - *Phần 1 (Câu 1 - 10)*: Phán đoán Đúng / Sai theo tranh (√ / ×).
+    - *Phần 2 (Câu 11 - 20)*: Nối tranh A - F theo đoạn hội thoại ngắn.
+    - *Phần 3 (Câu 21 - 30)*: Trắc nghiệm A, B, C theo đoạn hội thoại ngắn.
+    - *Phần 4 (Câu 31 - 35)*: Trắc nghiệm A, B, C theo đoạn hội thoại dài.
+  - **二、阅 读 (Phần Đọc hiểu - Câu 36 đến 60)**:
+    - *Phần 1 (Câu 36 - 40)*: Nối 6 tranh A - F với câu văn mô tả.
+    - *Phần 2 (Câu 41 - 45)*: Điền từ A - F vào chỗ trống.
+    - *Phần 3 (Câu 46 - 50)*: Đọc đoạn văn ngắn, phán đoán nhận định ★ Đúng (√) hay Sai (×).
+    - *Phần 4 (Câu 51 - 60)*: Ghép nối cặp câu đối thoại (51-55 và 56-60).
 
-### 2. 🖼️ Hình Ảnh Minh Họa Gốc Từ Đề Thi Giấy
-- Trích xuất trực tiếp **36 hình vẽ minh họa** từ trang thi Đọc hiểu của 6 file đề PDF gốc (thay thế hoàn toàn emoji).
-- Hình ảnh sắc nét, hiển thị chân thực bối cảnh đề thi, có tính năng **Lightbox phóng to** khi bấm vào ảnh.
+### 2. 🎧 Tích Hợp Audio Phát Âm Chuẩn Giọng Phổ Thông
+- Tích hợp phát thanh giọng đọc chuẩn tiếng Trung (`zh-CN`).
+- Nút **🔊 Nghe audio (Phát 2 lần)** mô phỏng đúng chuẩn phòng thi ("每题听两次").
+- Có mini player điều khiển phát / tạm dừng linh hoạt.
+- Trong chế độ Luyện tập và Xem lại sau khi nộp bài: Hiển thị trọn vẹn bản ghi lời thoại (听力材料) có kèm Pinyin và dịch nghĩa.
 
-### 3. 🔤 Phiên Âm Pinyin Đầy Đủ (Thẻ `<ruby>`)
-- Đề thi HSK 2 chuẩn luôn có Pinyin đi kèm trên từng chữ Hán.
-- Hệ thống chuẩn hóa **100% Pinyin** (bao gồm cả trợ từ ngữ pháp `了, 的, 吗, 呢, 吧, 过, 着...`).
-- Hiển thị thanh thoát, dễ đọc như đề thi in.
+### 3. 🖼️ Hình Ảnh Minh Họa Cắt Gốc Từ Đề Thi Thật
+- Cắt trực tiếp **162 hình ảnh minh họa thật** từ các trang đề thi PDF gốc (bao gồm tranh cho phần Nghe 1-20 và phần Đọc 36-40).
+- Hỗ trợ xem hình ảnh sắc nét, có **Lightbox phóng to** khi bấm vào ảnh.
 
-### 4. ⚡ Hai Chế Độ Làm Bài Chuyên Biệt
-- **🌱 Chế độ Luyện tập (Study Mode)**:
-  - Không giới hạn thời gian.
-  - Mặc định hiện Pinyin trên chữ Hán.
-  - **Di chuột (hover) hoặc chạm** vào chữ để hiện tooltip dịch nghĩa tiếng Việt chi tiết từng từ.
-  - Nút **"Ẩn / Hiện Pinyin"** trên thanh công cụ để tự thử thách nhớ mặt chữ.
-- **⏱️ Chế độ Thi thật (Exam Mode)**:
-  - Đồng hồ đếm ngược **22 phút** ghim góc màn hình.
-  - Mặc định hiện Pinyin chuẩn như đề thi giấy.
-  - Vô hiệu hóa toàn bộ tooltip dịch nghĩa tiếng Việt (thử thách tự hiểu câu).
-  - Tự động nộp bài khi hết giờ (Auto-submit).
+### 4. 🔤 Phiên Âm Pinyin Đầy Đủ & Tra Từ Điển Tương Tác
+- Toàn bộ đề thi được bọc thẻ `<ruby>` chuẩn HTML5 với Pinyin hiển thị phía trên chữ Hán.
+- **Rà soát 100% chuẩn xác theo đề thi Hanban** (ví dụ: Câu 46 đề H20901 chuẩn xác là `买了个新手机` với lượng từ `个 (ge)` thay vì các bản gõ sai).
+- **Chế độ Luyện tập (Study Mode)**: Hover hoặc chạm vào bất kỳ chữ Hán nào để xem tooltip dịch nghĩa tiếng Việt chi tiết.
+- **Chế độ Thi thật (Exam Mode)**: Vẫn hiện Pinyin chuẩn đề thi nhưng ẩn nghĩa tiếng Việt để thử thách khả năng tự đọc hiểu.
 
-### 5. 📊 Chấm Điểm & Báo Cáo Chi Tiết
-- Thang điểm chuẩn: **100 điểm** cho 25 câu (mỗi câu 4 điểm, 60 điểm là Đạt).
-- Phân tích chi tiết tỷ lệ đúng từng phần:
-  - *Phần 1: Nối tranh (Câu 1-5)*
-  - *Phần 2: Điền từ vào chỗ trống (Câu 6-10)*
-  - *Phần 3: Phán đoán Đúng / Sai (Câu 11-15)*
-  - *Phần 4: Ghép cặp đối thoại (Câu 16-25)*
-- **Chế độ Xem lại (Review)**: Đối chiếu đáp án đúng/sai, kèm hình ảnh minh họa và giải thích nghĩa chi tiết.
+### 5. 🎯 3 Phạm Vi Thi Linh Hoạt & Bảng Chuyển Câu Nhanh
+- 🎓 **Toàn bộ đề thi (60 câu)**: Thời gian 50 phút, 200 điểm (Nghe 100đ, Đọc 100đ).
+- 📖 **Chuyên đề Đọc hiểu (Câu 36 - 60)**: Thời gian 22 phút, 100 điểm.
+- 🎧 **Chuyên đề Nghe hiểu (Câu 1 - 35)**: Thời gian 25 phút, 100 điểm.
+- Hỗ trợ làm theo từng đề cụ thể (H20901 - H21006) hoặc làm đề trộn ngẫu nhiên từ ngân hàng câu hỏi.
+- Thanh công cụ có **Bảng câu hỏi (Grid 1 - 60)** giúp thí sinh dễ dàng theo dõi câu đã làm / chưa làm và chuyển câu tức thì.
+
+### 6. 📊 Báo Cáo Điểm & Lời Giải Chi Tiết
+- Chấm điểm tự động và đánh giá kết quả Đỗ (≥ 60% tổng điểm) / Chưa đỗ.
+- Tách bạch điểm số từng phần Nghe và Đọc.
+- Chế độ xem lại (Review): Hiển thị đáp án đã chọn, đáp án đúng (tô màu xanh), giải thích chi tiết, lời thoại và dịch nghĩa toàn bài.
 
 ---
 
-## 🚀 Hướng Dẫn Cài Đặt & Chạy Offline
+## 🚀 Hướng Dẫn Chạy Trên Máy Cục Bộ
 
-Ứng dụng được đóng gói trong **MỘT file duy nhất `index.html`** (bao gồm HTML, Tailwind CSS CDN, JavaScript và dữ liệu Base64 hình ảnh).
-
-1. Tải về hoặc clone repository:
+1. Clone repository về máy:
    ```bash
    git clone https://github.com/lamcbaotoan/Thi-HSK2.git
    ```
-2. Mở file `index.html` trực tiếp bằng bất kỳ trình duyệt nào (Chrome, Edge, Firefox, Safari) trên máy tính hoặc điện thoại mà không cần cài thêm bất kỳ phần mềm hay web server nào.
+2. Mở trực tiếp file `index.html` bằng bất kỳ trình duyệt nào (Chrome, Edge, Firefox, Safari) để làm bài ngay mà không cần cài đặt thêm server hay môi trường phức tạp.
 
 ---
 
-## ⚙️ Kích Hoạt GitHub Pages
-
-Repository đã được thiết lập sẵn GitHub Actions (`.github/workflows/deploy.yml`). Khi bạn push code lên branch `main`, GitHub sẽ tự động triển khai web.
-
-Nếu website chưa kích hoạt tự động, bạn chỉ cần thực hiện 2 bước đơn giản trên GitHub:
-1. Vào repository: **Settings** -> **Pages**.
-2. Ở mục **Build and deployment** -> **Source**:
-   - Chọn **GitHub Actions** (hoặc chọn **Deploy from a branch** -> chọn nhánh `main` / thư mục `/(root)` -> bấm **Save**).
-3. Đợi khoảng 1-2 phút, trang web sẽ hoạt động tại:  
-   `https://lamcbaotoan.github.io/Thi-HSK2/`
-
----
-
-*Phát triển phục vụ cộng đồng học tiếng Trung và luyện thi HSK 2.*
-
+*Hệ thống được phát triển phục vụ cộng đồng học tiếng Trung và luyện thi HSK 2 quốc tế.*
