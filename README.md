@@ -23,19 +23,26 @@
     - *Phần 3 (Câu 46 - 50)*: Đọc đoạn văn ngắn, phán đoán nhận định ★ Đúng (√) hay Sai (×).
     - *Phần 4 (Câu 51 - 60)*: Ghép nối cặp câu đối thoại (51-55 và 56-60).
 
-### 2. 🎧 Tích Hợp Audio Phát Âm Chuẩn Giọng Phổ Thông
-- Tích hợp phát thanh giọng đọc chuẩn tiếng Trung (`zh-CN`).
-- Nút **🔊 Nghe audio (Phát 2 lần)** mô phỏng đúng chuẩn phòng thi ("每题听两次").
-- Có mini player điều khiển phát / tạm dừng linh hoạt.
+### 2. 🎧 Tích Hợp Audio Kép (Dual-Voice Engine: Giọng Nữ 👩 + Giọng Nam 👨)
+- Mô phỏng đúng quy chế phòng thi chuẩn Hanban ("每题听两次"):
+  - **Lần 1:** Phát bằng **Giọng Nữ** (`👩 Nữ`, cao độ $1.15$, tốc độ $0.88$).
+  - **Khoảng nghỉ:** Tự động dừng nghỉ $1.4$ giây giữa 2 lần phát với đồng hồ báo hiệu.
+  - **Lần 2:** Tự động phát tiếp bằng **Giọng Nam** (`👨 Nam`, cao độ trầm $0.78 - 0.95$, tốc độ $0.86$).
+- Có nút phát riêng lẻ từng giọng: `👩 Nữ` hoặc `👨 Nam` để luyện nghe theo nhu cầu.
+- Floating Audio Player ghim góc dưới màn hình có hoạt ảnh sóng âm và hiển thị tiến trình phát thời gian thực.
 - Trong chế độ Luyện tập và Xem lại sau khi nộp bài: Hiển thị trọn vẹn bản ghi lời thoại (听力材料) có kèm Pinyin và dịch nghĩa.
 
-### 3. 🖼️ Hình Ảnh Minh Họa Cắt Gốc Từ Đề Thi Thật
+### 3. 🖼️ Hình Ảnh Minh Họa Cắt Gốc Từ Đề Thi Thật & Thẻ Ví Dụ (例如) Chuẩn Hanban
 - Cắt trực tiếp **162 hình ảnh minh họa thật** từ các trang đề thi PDF gốc (bao gồm tranh cho phần Nghe 1-20 và phần Đọc 36-40).
 - Hỗ trợ xem hình ảnh sắc nét, có **Lightbox phóng to** khi bấm vào ảnh.
+- **Có đầy đủ thẻ Ví dụ (`例如`)** ở đầu cả 8 phần thi (4 phần Nghe + 4 phần Đọc) y hệt đề thi giấy chính thức.
 
 ### 4. 🔤 Phiên Âm Pinyin Đầy Đủ & Tra Từ Điển Tương Tác
 - Toàn bộ đề thi được bọc thẻ `<ruby>` chuẩn HTML5 với Pinyin hiển thị phía trên chữ Hán.
-- **Rà soát 100% chuẩn xác theo đề thi Hanban** (ví dụ: Câu 46 đề H20901 chuẩn xác là `买了个新手机` với lượng từ `个 (ge)` thay vì các bản gõ sai).
+- **Rà soát 100% chuẩn xác theo đề thi Hanban**:
+  - Khử sạch hoàn toàn các dấu nháy đơn sai quy tắc (dùng `shǒujī`, `piányi`, `wàimiàn` thay vì `shǒu'jī`, `pián'yi`).
+  - Chuẩn hóa các chữ đa âm: `眼睛得休息` với `得` đọc là **`děi`** (*cần phải*), `时间长` với `长` đọc là **`cháng`**, `笑着` với `着` đọc là **`zhe`**, `还有` với `还` đọc là **`hái`**.
+  - Sửa chuẩn xác Câu 46 đề H20901: `买了个新手机` với lượng từ `个 (ge)`.
 - **Chế độ Luyện tập (Study Mode)**: Hover hoặc chạm vào bất kỳ chữ Hán nào để xem tooltip dịch nghĩa tiếng Việt chi tiết.
 - **Chế độ Thi thật (Exam Mode)**: Vẫn hiện Pinyin chuẩn đề thi nhưng ẩn nghĩa tiếng Việt để thử thách khả năng tự đọc hiểu.
 
